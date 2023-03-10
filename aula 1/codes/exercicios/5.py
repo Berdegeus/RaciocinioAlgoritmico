@@ -5,7 +5,7 @@ birth_month = int(input("Seu mes de nascimento: "))
 birth_day = int(input("Seu dia de nascimento: "))
 ## process
 today = date.today()
-#calcula se voce ja fez aniversario esse ano
+#calcula sua idade
 age = today.year - birth_year
 #se voce ainda nao fez aniversario esse ano, diminui 1 ano. essa logica de if else foi aprendida na aula da rafa segunda :)
 if today.month < birth_month:
