@@ -21,5 +21,6 @@ if months < 0:
 ## output
 print("Voce tem:", age , "anos e,", months, "meses de idade")
 
-## aqui eu importei a data e hora com  o modulo datetime, mas voce fazer o mesmo manuamente
+## aqui eu importei a data e hora com  o modulo datetime, mas voce fazer o mesmo manuamente, mas seu codigo vai acabar desatualizado
+## e voce vai ter que mudar o ano manualmente, mas se voce quiser fazer assim, so tirar o from datetime import date e colocar o ano e mes manualmente
 

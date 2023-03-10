@@ -1,6 +1,6 @@
-##input
+## input
 celcius = float(input("Temperatura atual em celcius: "))
-##process
+## process
 farenheit = (celcius * 9/5) + 32
-##output
+## output
 print("A temperatura atual em farenheit é: ", farenheit)
