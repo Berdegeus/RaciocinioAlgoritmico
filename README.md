@@ -1,2 +1,2 @@
 # racicionio-algoritmico
- Arquivos da aula de racinio algoritmico do primeiro periodo 
+ Arquivos da aula de racicionio algoritmico do primeiro periodo 
