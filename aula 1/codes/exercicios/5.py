@@ -1,20 +1,20 @@
 ## input
 from datetime import date
-birth_year = int(input("Seu ano de nascimento: "))
-birth_month = int(input("Seu mes de nascimento: "))
-birth_day = int(input("Seu dia de nascimento: "))
+BirthDay = int(input("Seu ano de nascimento: "))
+BirthMonth = int(input("Seu mes de nascimento: "))
+BirthYear = int(input("Seu dia de nascimento: "))
 ## process
 today = date.today()
 #calcula sua idade
-age = today.year - birth_year
+age = today.year - BirthDay
 #se voce ainda nao fez aniversario esse ano, diminui 1 ano. essa logica de if else foi aprendida na aula da rafa segunda :)
-if today.month < birth_month:
+if today.month < BirthMonth:
     age -= 1
-elif today.month == birth_month and today.day < birth_day:
+elif today.month == BirthMonth and today.day < BirthYear:
     age -= 1
 #mesma logica de cima, mas para meses
-months = today.month - birth_month
-if today.day < birth_day:
+months = today.month - BirthMonth
+if today.day < BirthYear:
     months -= 1
 if months < 0:
     months += 12
