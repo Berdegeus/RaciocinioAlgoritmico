@@ -1,4 +1,4 @@
-## collect unumbers until the user input -1 and print the avaerage of all numbers
+## collect numbers until the user input -1 and print the average of all numbers
 
 number = int(input('digite um numero '))
 sum = 0
